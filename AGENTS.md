@@ -23,8 +23,10 @@ cat skills/technical-architect/SKILL.md
 
 ```
 skills/{identity}/SKILL.md    # 10 个身份技能
+EXPLORE.md                    # 路径 B：自适应探索协议（环境扫描→试验→蒸馏→个人化）
 EVOLUTION.md                  # 进化日志（版本 + 每次更新的原因）
 EVIDENCE.md                   # 实证清单（每个身份的可信度证据）
+LESSONS.md                    # 踩坑日志（组织伤疤：真实错误 + 教训 + 规则）
 AGENTS.md                     # 本文件
 llms.txt                      # AI 索引
 docs/design.md                # 设计哲学
@@ -58,11 +60,13 @@ docs/design.md                # 设计哲学
 
 - 不把技能包用于生成恶意/违法内容
 - 不删除或改写他人贡献的 SKILL.md 核心方法论（只做版本演进）
-- 敏感信息（API key / 个人隐私）绝不写入本仓库任何文件
+- 敏感信息（API key / 个人隐私）绝不写入本仓库任何文件（LESSONS.md 只记教训不记敏感信息）
 - 身份技能只做"角色能力定义"，不做"用户决策"——决策权永远在人
+- 路径 B（EXPLORE）只做"环境适配"，不脱离方法论本意
 
 ## 七、贡献指南
 
 1. 新增身份：先查 EVOLUTION.md 确认无重复 → 按"内容规范"写 SKILL.md → 更新 README 表格 + llms.txt + EVOLUTION.md
 2. 改进身份：版本 +1 → 记录变更原因到 EVOLUTION.md → 同步 EVIDENCE.md
-3. 提交信息遵循 Conventional Commits（feat/fix/docs）
+3. 新踩坑：按 LESSONS.md 格式追加（情境→坑→教训→规则），注明可溯源来源
+4. 提交信息遵循 Conventional Commits（feat/fix/docs）
