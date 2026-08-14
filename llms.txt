@@ -1,0 +1,12 @@
+# agent-identity-kit
+
+> An evolving, evidence-first kit of 10 AI agent identities — give any AI coding assistant a full technical team. Built by a 16-year-old from a year of real use.
+
+## Key documents
+
+- [README.md](README.md): What it is, why it's different, 30-second quick start.
+- [AGENTS.md](AGENTS.md): Operation manual — how to use, how the kit evolves (distillation protocol).
+- [EVOLUTION.md](EVOLUTION.md): Public evolution log — every version change and why.
+- [EVIDENCE.md](EVIDENCE.md): Evidence list — real usage proof for every identity.
+- [skills/](skills/): The 10 identity skills (architect / implementation / QA / docs / release / demo / security / community / planner / memory).
+- [docs/design.md](docs/design.md): Design philosophy.
