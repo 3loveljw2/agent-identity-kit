@@ -23,27 +23,34 @@
 ## 为什么这个技能包不一样
 
 **① 自进化（Self-Evolving）**
-这不是静态的技能文件集。每个身份按"蒸馏机制"运转：任务留痕 → 经验提炼 → 技能更新，进化记录在 [EVOLUTION.md](EVOLUTION.md) 公开可见——**你 star 的是一个每周在变聪明的团队**。
+这不是静态的技能文件集。每个身份按"蒸馏机制"运转：任务留痕 → 经验提炼 → 技能更新，进化记录在 [EVOLUTION.md](EVOLUTION.md) 公开可见，踩坑教训在 [LESSONS.md](LESSONS.md) 公开可查——**你 star 的是一个每周在变聪明、且把错误也摊开给你看的团队**。
 
 **② 实证优先（Evidence-First）**
 2026 年 GitHub 被 AI 生成内容淹没，"可验证的真人真实产出"是稀缺信任品。每个身份的能力都有真实使用证据（见 [EVIDENCE.md](EVIDENCE.md)）：7/7 通过的测试、565 份真题题库、99 条任务记录、多轮实战——不是 PPT。
 
-**③ 少年造 AI（16 y/o）**
+**③ 双路径（Two Paths）**
+不给你唯一的死路径：**落地即用**（通用最优）或**自适应探索**（[EXPLORE.md](EXPLORE.md)，你的 Agent 扫描环境→试验→蒸馏→形成你环境的最优）。方法论不变，交付形态你选。
+
+**④ 少年造 AI（16 y/o）**
 这个技能包不是课堂作业：它来自一个 16 岁少年用 AI 从零搭建学习系统的一年实战——由它管理的系统真实撑起了 565 份真题题库、AI 出卷引擎、官网多页站。
 
-## 快速开始（30 秒）
+## 快速开始：两条路，你选
+
+**路径 A · 落地即用（快车道，30 秒）**
 
 ```bash
-# 方式一：直接复制 skills 到你的 Agent 工具
 git clone https://github.com/3loveljw2/agent-identity-kit.git
 cp -r agent-identity-kit/skills/* ~/.claude/skills/   # Claude Code
 # 或 Cursor / Codex / Gemini CLI 的对应 skills 目录
-
-# 方式二：按需加载单个身份（如技术架构师）
-# 把 skills/technical-architect/SKILL.md 内容贴给 Agent 即可
 ```
 
-加载后，Agent 就拥有了对应身份的**核心能力 + 工作流程 + 交付物模板 + 验收标准 + 自主性边界**。
+加载后，Agent 立即拥有 10 个身份的**核心能力 + 工作流程 + 交付物模板 + 验收标准 + 自主性边界**。
+
+**路径 B · 自适应探索（定制化，让 Agent 找到你环境的最优）**
+
+不满足于"通用最优"？按 [EXPLORE.md](EXPLORE.md) 协议走：你的 Agent 扫描你的环境 → 评估匹配度 → 小规模试验 → 蒸馏适配 → 形成**你的个人化技能包**，并持续进化。
+
+> 两条路共享同一套方法论（10 身份能力不变），区别只在交付后是否再适配。建议先用 A 跑通，再决定要不要走 B 深挖。
 
 ## 进化协议（如何贡献/如何让技能包成长）
 
@@ -57,8 +64,10 @@ cp -r agent-identity-kit/skills/* ~/.claude/skills/   # Claude Code
 ## 文档
 
 - [AGENTS.md](AGENTS.md) — AI 操作手册（怎么用/怎么进化）
+- [EXPLORE.md](EXPLORE.md) — **路径 B 自适应探索协议**（让 Agent 找到你环境的最优）
 - [EVOLUTION.md](EVOLUTION.md) — 进化日志（版本历史，公开可见的成长记录）
 - [EVIDENCE.md](EVIDENCE.md) — 实证清单（能力可信度证据）
+- [LESSONS.md](LESSONS.md) — **踩坑日志**（真实错误与教训，组织伤疤——为什么这些技能可靠）
 - [llms.txt](llms.txt) — AI 索引
 - [docs/design.md](docs/design.md) — 技能包设计哲学
 
