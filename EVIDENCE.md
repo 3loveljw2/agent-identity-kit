@@ -11,7 +11,7 @@ GitHub 上"看起来很专业"的 AI 生成仓库越来越多。本技能包的�
 | 身份 | 实证 | 可核验方式 |
 |---|---|---|
 | **Technical Architect** | 为 self-evolving-agent 设计最小可执行架构（ARCHITECTURE.md：5C 模块 / 接口契约 / ADR-001 选型 / P0-P3 落地） | github.com/3loveljw2/self-evolving-agent/blob/main/ARCHITECTURE.md |
-| **Implementation Engineer** | 实现 sea CLI P0（init/add/status/read，本地优先 Markdown 记忆，Typer，全类型注解），**7/7 测试通过** | github.com/3loveljw2/self-evolving-agent（sea CLI）+ 测试记录 |
+| **Implementation Engineer** | 实现 sea CLI P0（init/add/status/read，本地优先 Markdown 记忆，Typer，全类型注解），**10/10 测试通过** | github.com/3loveljw2/self-evolving-agent（sea CLI）+ 测试记录 |
 | **Quality Reviewer** | 建立 sea 测试套件（自动分层/强制层级/非法输入/读写回环/统计），独立于实现者审查 | 同上，tests 可复现 |
 | **Technical Writer** | 3 仓库 llms.txt + README 优化（60 秒原则/Quick Start） | 3 个仓库根目录可见 |
 | **Release Engineer** | 主页 LICENSE 补全（CC BY 4.0 官方文本）、版本与存档规范 | github.com/3loveljw2/3loveljw2/LICENSE |
