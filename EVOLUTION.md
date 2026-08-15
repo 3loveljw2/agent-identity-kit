@@ -19,6 +19,7 @@
 
 | 版本 | 日期 | 变化 | 触发 |
 |---|---|---|---|
+| v0.1.1 | 2026-08-15 | 实战记录：sea v0.1.0 GitHub Release（release-engineer 全流程：semver → CHANGELOG → tag → Release notes）；响应外部 AI 评审（LICENSE 双轨、CI workflow 全绿、双语分层 10/10 测试、EVIDENCE 私有边界说明、主页叙事分区） | 外部 AI 评审（Kimi/千问） |
 | v0.1 | 2026-08-14 | 初始发布（10 身份） | 开源启动 |
 
 > 下一次进化的触发条件：用技能包完成真实任务 ≥10 条 → 蒸馏 → 版本 +1
